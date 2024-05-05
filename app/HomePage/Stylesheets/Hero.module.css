@@ -1,0 +1,103 @@
+.hero {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Hero Right */
+.heroRight {
+  width: 50%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroCaption {
+  overflow: hidden;
+  color: #8576ff;
+  font-size: 3.5rem;
+  white-space: nowrap;
+  margin: 0 auto;
+  box-sizing: border-box;
+  animation: typing 3.5s steps(35, end), blinking 0.75s step-end infinite;
+  border-right: solid 0.2rem #8576ff;
+}
+
+.heroButton {
+  background-color: #f27bbd;
+  height: 2rem;
+  width: 8rem;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  margin-top: 1rem;
+}
+
+.heroButton:hover {
+  cursor: pointer;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes blinking {
+  0% {
+    border-color: transparent;
+  }
+
+  50% {
+    border-color: #8576ff;
+  }
+
+  100% {
+    border-color: transparent;
+  }
+}
+
+/* Hero Left */
+.heroLeft {
+  width: 50%;
+  /* background-color: #874ccc; */
+}
+
+.planet {
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: rgba(123, 201, 255, 0.8);
+  bottom: 12%;
+  left: 5%;
+  box-shadow: inset -1.2rem -1.2rem #7bc9ff;
+}
+
+.rocket {
+  height: 2rem;
+  width: 2rem;
+  font-size: 2rem;
+  position: absolute;
+  top: -1.8rem;
+  color: #fff;
+  left: 50%;
+  animation: translation 12s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
+}
+
+@keyframes translation {
+  from {
+    transform: translate(25rem, -12rem) rotate(-135deg);
+  }
+
+  to {
+    transform: none;
+  }
+}
