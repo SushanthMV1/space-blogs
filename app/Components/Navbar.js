@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <nav className={styles.navbar}>
-        <div>Cosmic Chronicles</div>
+        <div className={styles.heading}>Cosmic Chronicles</div>
         <ul className={styles.navLinkList}>
           <li className={styles.navLink}>Home</li>
           <li className={styles.navLink}>About</li>
