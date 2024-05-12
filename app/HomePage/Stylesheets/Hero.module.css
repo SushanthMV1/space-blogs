@@ -21,7 +21,7 @@
   white-space: nowrap;
   margin: 0 auto;
   box-sizing: border-box;
-  animation: typing 3.5s steps(35, end), blinking 0.75s step-end infinite;
+  animation: typing 3.5s steps(40, end), blinking 0.75s step-end infinite;
   border-right: solid 0.2rem #8576ff;
 }
 
@@ -35,8 +35,15 @@
   border-radius: 1rem;
   border: none;
   margin-top: 1rem;
+  width: auto;
+  box-shadow: 0rem 0.3rem 0rem #8576ff;
 }
 
+.heroButton:active {
+  cursor: pointer;
+  box-shadow: 0rem 0.15rem 0rem #8576ff;
+  transform: translateY(0.15rem);
+}
 .heroButton:hover {
   cursor: pointer;
 }
@@ -46,7 +53,7 @@
     width: 0%;
   }
   to {
-    width: 90%;
+    width: 79%;
   }
 }
 
@@ -70,7 +77,7 @@
   /* background-color: #874ccc; */
 }
 
-.planet {
+.planet1 {
   position: absolute;
   height: 15rem;
   width: 15rem;
