@@ -1,4 +1,4 @@
-import styles from "./Stylesheets/Hero.module.css";
+import styles from "../Stylesheets/Hero.module.css";
 
 const Hero = () => {
   //let vh = window.innerHeight;
@@ -18,7 +18,10 @@ const Hero = () => {
       {/* Hero Right */}
       <div className={styles.heroRight}>
         <h1 className={styles.heroCaption}>Deep Space Exploration.</h1>
-        <button className={styles.heroButton}>Read Blogs</button>
+        <button className={styles.heroButton}>
+          <div className={styles.text}>Read Blogs</div>
+          <div className={styles.gradient}></div>
+        </button>
       </div>
     </div>
   );

@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Stellar Chronicles",
+    "image": "/Assets/test.jpg",
+    "description": "Embark on a celestial journey through our blog, where we unravel the mysteries of the universe, from distant galaxies to enigmatic black holes, with captivating storytelling and stunning imagery."
+  },
+  {
+    "title": "Beyond the Horizon:",
+    "image": "/Assets/alpha.jpg",
+    "description": "Join us on an odyssey through the cosmos as we delve into the latest space missions, scientific breakthroughs, and astronomical wonders, providing a gateway to the infinite wonders of the universe."
+  },
+  {
+    "title": "Cosmic Compass",
+    "image": "/Assets/beta.jpeg",
+    "description": "Navigate the cosmos with us as we decode the secrets of the universe, guiding you through the vast expanse of space with insightful articles, breathtaking visuals, and expert analysis."
+  },
+  {
+    "title": "Galactic Gazette",
+    "image": "/Assets/gamma.jpg",
+    "description": "Stay informed about all things space with our blog, delivering the latest updates, discoveries, and space-related news, ensuring you're always in the know about the ever-evolving frontier of the universe."
+  }
+]

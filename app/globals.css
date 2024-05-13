@@ -3,5 +3,6 @@
 }
 
 body {
-  background-color: #1c1678;
+  background-image: url(/Assets/background.png);
+  /* background-color: #141414; */
 }
