@@ -1,0 +1,29 @@
+.blogSearch {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  height: 2.5rem;
+  width: 50%;
+  border-radius: 1.25rem 0 0 1.25rem;
+  padding: 0rem 0.5rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+  border: none;
+}
+
+.submit {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0 1.25rem 1.25rem 0;
+  border: none;
+  font-size: 1.25rem;
+}
+
+.submit:hover {
+  cursor: pointer;
+}

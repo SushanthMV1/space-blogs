@@ -12,11 +12,11 @@ const Navbar = () => {
               Home
             </Link>
           </li>
-          <li className={styles.navLink}>
+          {/* <li className={styles.navLink}>
             <Link href="/Blogs" className={styles.navInnerLink}>
               About
             </Link>
-          </li>
+          </li> */}
           <li className={styles.navLink}>
             <Link href="/Blogs" className={styles.navInnerLink}>
               Latest Blogs
